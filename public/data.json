@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "image": "https://media.gettyimages.com/id/1711546167/photo/guwahati-india-shakib-al-hasan-of-bangladesh-poses-for-a-portrait-ahead-of-the-icc-mens.jpg?s=612x612&w=0&k=20&c=clF0YTL6BKYvjoWzfX4MJYwkl1TIyJync2-TqTcCqJY=",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 4.8,
+    "batting": "Left-hand Bat",
+    "bowling": "Slow Left-arm Orthodox",
+    "price": 120
+  },
+  {
+    "id": 2,
+    "name": "Tamim Iqbal",
+    "image": "https://media.gettyimages.com/id/691109642/photo/london-england-tamim-iqbal-khan-of-bangladesh-celebrates-his-century-during-the-icc-champions.jpg?s=612x612&w=0&k=20&c=i3sjJcYaPn19uvW_tdGjS48r3OVJv6jd17B-7N4ak5I=",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 4.5,
+    "batting": "Left-hand Bat",
+    "bowling": "None",
+    "price": 100
+  },
+  {
+    "id": 3,
+    "name": "Virat Kohli",
+    "image": "https://media.gettyimages.com/id/2155702970/photo/new-york-new-york-virat-kohli-of-india-poses-for-a-portrait-prior-to-the-icc-mens-t20-cricket.jpg?s=612x612&w=0&k=20&c=4Vl1uqRb0nM7SveZtlx3r4Mkv7tWZcWcWQJ9_kD6qiI=",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 4.9,
+    "batting": "Right-hand Bat",
+    "bowling": "Right-arm Medium",
+    "price": 150
+  },
+  {
+    "id": 4,
+    "name": "Rohit Sharma",
+    "image": "https://media.gettyimages.com/id/2155145085/photo/new-york-new-york-rohit-sharma-of-india-poses-for-a-portrait-prior-to-the-icc-mens-t20.jpg?s=612x612&w=0&k=20&c=JJMmstaW5mf_n4n-TIiYiepP-IYUUnDCO5ickaoslY4=",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 4.7,
+    "batting": "Right-hand Bat",
+    "bowling": "Right-arm Off Break",
+    "price": 145
+  },
+  {
+    "id": 5,
+    "name": "Babar Azam",
+    "image": "https://media.gettyimages.com/id/1713408997/photo/hyderabad-india-babar-azam-of-pakistan-poses-for-a-portrait-ahead-of-the-icc-mens-cricket.jpg?s=612x612&w=0&k=20&c=HXkZUm36bM63Eo2pCnDtzakGL1pgpJHS9cy2dRgTsiY=",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 4.8,
+    "batting": "Right-hand Bat",
+    "bowling": "None",
+    "price": 140
+  },
+  {
+    "id": 6,
+    "name": "Shaheen Afridi",
+    "image": "https://media.gettyimages.com/id/2155759897/photo/dallas-texas-shaheen-shah-afridi-of-pakistan-poses-for-a-portrait-prior-to-the-icc-mens-t20.jpg?s=612x612&w=0&k=20&c=hmVxe8ZWUAUE1Qtsj2npiwJUR_VCle1FcN2TK2qFh3Y=",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "rating": 4.6,
+    "batting": "Left-hand Bat",
+    "bowling": "Left-arm Fast",
+    "price": 130
+  },
+  {
+    "id": 7,
+    "name": "Ben Stokes",
+    "image": "https://media.gettyimages.com/id/1711636106/photo/guwahati-india-ben-stokes-of-england-poses-for-a-portrait-ahead-of-the-icc-mens-cricket-world.jpg?s=612x612&w=0&k=20&c=KGl7yTvIIxR7U6Gyx0oAc23lWj6F8s0U7ybEiKmAfEo=",
+    "country": "England",
+    "role": "All-rounder",
+    "rating": 4.7,
+    "batting": "Left-hand Bat",
+    "bowling": "Right-arm Fast Medium",
+    "price": 150
+  },
+  {
+    "id": 8,
+    "name": "Joe Root",
+    "image": "https://media.gettyimages.com/id/2169285592/photo/london-england-joe-root-of-england-celebrates-reaching-his-centuryduring-the-2nd-test-match.jpg?s=612x612&w=0&k=20&c=euVm9zmjtfMHy61PbFETmjM232NyZOEgbSq-Gh-0VI8=",
+    "country": "England",
+    "role": "Batsman",
+    "rating": 4.6,
+    "batting": "Right-hand Bat",
+    "bowling": "Right-arm Off Break",
+    "price": 135
+  },
+  {
+    "id": 9,
+    "name": "Steve Smith",
+    "image": "https://media.gettyimages.com/id/1713069278/photo/hyderabad-india-steve-smith-of-australia-poses-for-a-portrait-ahead-of-the-icc-mens-cricket.jpg?s=612x612&w=0&k=20&c=_Ia4lcfmvmzgR6C1JJ-0JJVbyllpbsHuUwxhAyKrzjY=",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 4.8,
+    "batting": "Right-hand Bat",
+    "bowling": "Right-arm Leg Break",
+    "price": 145
+  },
+  {
+    "id": 10,
+    "name": "David Warner",
+    "image": "https://media.gettyimages.com/id/1268521166/photo/derby-england-david-warner-of-australia-poses-for-a-portrait-during-the-australia-cricket.jpg?s=612x612&w=0&k=20&c=fEUeeXajL-FTmpSWsyWbyESrd1Kj0glUeHD1IaPvKos=",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 4.5,
+    "batting": "Left-hand Bat",
+    "bowling": "Right-arm Leg Break",
+    "price": 130
+  }
+]

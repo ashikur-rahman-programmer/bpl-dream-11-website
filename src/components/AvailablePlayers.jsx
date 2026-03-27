@@ -1,19 +1,12 @@
 import React from "react";
+import Player from "./Player";
 
-const AvailablePlayers = () => {
+const AvailablePlayers = ({ players }) => {
   return (
-    <div className="container mx-auto">
-      <div className="flex justify-between items-center flex-wrap my-4">
-        <h2 className="text-2xl font-semibold">Available Players</h2>
-        <div className="flex justify-center items-center gap-2">
-          <button className="btn text-xl bg-[#e9fe29ea] rounded-xl text-black ">
-            Available
-          </button>
-          <button className="btn text-xl bg-[#e9fe29ea] rounded-xl text-black ">
-            Selected
-          </button>
-        </div>
-      </div>
+    <div className="container mx-auto mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      {players.map((player) => (
+        <Player key={player.id} player={player} />
+      ))}
     </div>
   );
 };
