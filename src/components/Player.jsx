@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { CircleUserRound, Flag, Star } from "lucide-react";
 
-const Player = ({ player }) => {
+const Player = ({ player, coin, setCoin }) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectedPlayers = () => {
+    let newCoin = coin - player.price;
+    if (newCoin >= 0) {
+      setCoin(coin - player.price);
+    } else {
+      alert("Not enough price available");
+      return;
+    }
+    alert(`${player.name} is selected!`);
+    setIsSelected(!isSelected);
+  };
   return (
     <div className="container mx-auto mt-4">
       <div className="max-w-sm rounded-2xl overflow-hidden hover:shadow-xl transition duration-300 shadow-2xl">
@@ -53,7 +66,13 @@ const Player = ({ player }) => {
             <span className="text-xl font-bold text-green-600">
               Price : ${player.price}
             </span>
-            <button className="btn">Choose Player</button>
+            <button
+              onClick={handleSelectedPlayers}
+              disabled={isSelected}
+              className="btn"
+            >
+              {isSelected ? "Selected" : "Choose Player"}
+            </button>
           </div>
         </div>
       </div>

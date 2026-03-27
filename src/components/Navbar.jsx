@@ -1,8 +1,8 @@
 import logo from "../assets/logo.png";
-import coin from "../assets/dollar 1.png";
+import coins from "../assets/dollar 1.png";
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
   return (
     <div className="container mx-auto">
       <div className="navbar bg-base-100 mt-12 mb-6 shadow-sm flex justify-between items-center">
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
 
         <button className="btn">
-          Coin <img src={coin} alt="" />
+          {coin} Coin <img src={coins} alt="" />
         </button>
       </div>
     </div>
